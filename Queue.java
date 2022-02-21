@@ -44,11 +44,7 @@ class Queue {
 
     // Return the number of elements in queue.
     public int size() {
-        if (i==0){
-            return ele1.size();}
-            else{
-            return ele2.size();
-            }
+        return ele2.size() + ele1.size();        
     }
     
     public static void main(String[] args) {
